@@ -1,0 +1,106 @@
+body{
+    background-color: #131515;
+    color: #FFFAFB;
+    font-family: arial, verdana, times;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    height: 100%; 
+    max-height: 100%; 
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#framecontent{
+position: absolute;
+top: 0;
+bottom: 0; 
+left: 0;
+width: 250px;
+height: 100%;
+overflow: hidden;
+background: #222;
+color: white;
+}
+
+#maincontent{
+position: fixed;
+top: 0; 
+left: 250px;
+right: 0;
+bottom: 0;
+overflow: auto;
+padding-right: 30px;
+}
+
+.innertube{
+margin: 15px;
+}
+
+* html body{
+padding: 0 0 0 200px;
+}
+
+* html #maincontent{
+height: 100%; 
+width: 100%; 
+}
+
+td {
+    width: 100%;
+}
+
+.coinresults {
+    float: left;
+    width: 75%;
+    min-height: 100%;
+    display: block;
+}
+
+.coinstats {
+    position: absolute;
+    right: 0;
+    float: left;
+    min-width: 25%;
+    background-color: #FF724C;
+    overflow: hidden;
+    display: block;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.header{
+    background-color: #2B2C28;
+    color: #FF724C;
+    min-width: 100%;
+    font-size: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 12px;
+}
+
+.button{
+    background-color: #2B2C28;
+    color: #FF724C;
+    width: 160px;
+    font-size: 24px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+#gamecontent {
+    float:left;
+    width:75%;
+}
+
+a {
+    color: #FF724C;
+    text-decoration: none;
+}
